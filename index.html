@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <form class="search" action="">
+            <input 
+                id="input"
+                type="search"
+                placeholder="Enter City"
+            />
+            <input id="search" type="submit" value="Search" required/>
+        </form>
+    </div>
+    <div class="left">
+        <div class="city">
+            <h2>-</h2>
+        </div>
+        <div class="temp">
+            <div class="sky">
+                <i id="sun" class="material-icons">wb_sunny</i>
+                <span class="icon-text">-</span>
+            </div>
+            <div class="temp-value">0°</div>
+        </div>
+    </div>
+    <div class="other-info">
+        <div class="wind-info">
+            <i class="material-icons">air</i>
+            <div>
+                <h3 class="wind-speed">0KM/H</h3>
+                <p class="wind-label">Wind</p>
+            </div>
+        </div>    
+        <div class="humidity-info">
+            <i class="material-icons">water_drop</i>
+            <div>
+                <h3 class="humidity">0%</h3>
+                <p class="humidity-label">Humidity</p>
+            </div>
+        </div>    
+        <div class="visibility-info">
+            <i class="material-icons">visibility</i>
+            <div>
+                <h3 class="visibility-distance">0KM</h3>
+                <p class="visibility-label">Visibility</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
